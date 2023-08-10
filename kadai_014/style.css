@@ -1,0 +1,39 @@
+body {
+  font-family: "Arial", "Meiryo", sans-serif;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 40px;
+  text-shadow: 3px 3px 2px;
+  border-bottom: solid 3px rgb(115, 115, 114);
+  letter-spacing: calc(40px * 1.2)
+}
+
+h1::first-letter {
+  color: skyblue;
+}
+
+span {
+  color: rgb(255, 192, 203);
+}
+
+/* 文書のルート要素（HTML の場合は <html>）を選択 */
+:root {
+  font-size: 20px;
+}
+
+.pink {
+  color: rgb(255, 192, 203);
+}
+
+.skyblue {
+  color: skyblue;
+}
+
+#basic>p {
+  font-weight: bold;
+}
